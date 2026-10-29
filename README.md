@@ -8,7 +8,7 @@
 
 算一下这期卡池要备多少抽。一个 HTML 文件，双击就能开，断网也能用，数据和抽卡记录都不上传。
 
-![桌面端界面](doc/screenshots/desktop.png)
+![桌面端界面](doc/evidence/desktop.png)
 
 ## 怎么用
 
@@ -29,8 +29,8 @@
 手机上是竖着排的，同样能跑百万次：
 
 <p>
-<img src="doc/screenshots/manual-desktop.png" width="62%" alt="抽卡体验模式">
-<img src="doc/screenshots/mobile-touch.png" width="26%" alt="手机端界面">
+<img src="doc/evidence/manual-desktop.png" width="62%" alt="抽卡体验模式">
+<img src="doc/evidence/mobile-touch.png" width="26%" alt="手机端界面">
 </p>
 
 ## 它算得准不准
