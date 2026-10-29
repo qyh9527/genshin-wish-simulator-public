@@ -1,7 +1,7 @@
 # 原神祈愿实验室
 
-[![Release](https://img.shields.io/github/v/release/qyh9527/genshin-wish-simulator?color=c91e2d&label=%E7%89%88%E6%9C%AC)](https://github.com/qyh9527/genshin-wish-simulator/releases)
-[![在线试玩](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%8E%A9-GitHub%20Pages-2f81f7)](https://qyh9527.github.io/genshin-wish-simulator/)
+[![Release](https://img.shields.io/github/v/release/qyh9527/genshin-wish-simulator-public?color=c91e2d&label=%E7%89%88%E6%9C%AC)](https://github.com/qyh9527/genshin-wish-simulator-public/releases)
+[![在线试玩](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%8E%A9-GitHub%20Pages-2f81f7)](https://qyh9527.github.io/genshin-wish-simulator-public/)
 [![单文件](https://img.shields.io/badge/%E4%BA%A4%E4%BB%98-%E5%8D%95%20HTML%20%E6%96%87%E4%BB%B6-2ea44f)](release/genshin抽卡模拟器.html)
 [![离线](https://img.shields.io/badge/%E8%BF%90%E8%A1%8C-%E7%A6%BB%E7%BA%BF%E4%B8%8D%E8%81%94%E7%BD%91-8957e5)](release/genshin抽卡模拟器.html)
 [![规则](https://img.shields.io/badge/%E8%A7%84%E5%88%99-7.1-f0a020)](doc/rules.md)
@@ -12,7 +12,7 @@
 
 ## 怎么用
 
-1. 在本页右上角 Releases 里下 `genshin抽卡模拟器.html`，或者直接去[在线试玩](https://qyh9527.github.io/genshin-wish-simulator/)。
+1. 在本页右边 Releases 里下 `genshin-wish-simulator.html`，或者直接去[在线试玩](https://qyh9527.github.io/genshin-wish-simulator-public/)。
 2. 左边填准备了多少抽、手里多少星辉，右边挑要什么：角色写「还要再抽几个」，武器写「要几把」。填 0 就是不追这个目标。
 3. 点「开始跑 100 万次」。几千抽的完整跑完大概几秒，进度条能动，跑一半想停就点取消。
 
