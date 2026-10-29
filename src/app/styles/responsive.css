@@ -1,0 +1,97 @@
+@media(max-width:1000px) {
+  .workspace {
+  grid-template-columns:360px minmax(0,1fr)}
+aside {
+  padding-right:18px}
+main {
+  padding-left:20px}
+.metrics {
+  grid-template-columns:1fr 1fr}
+.metrics>div:last-child {
+  grid-column:1/-1;
+  border-left:0;
+  padding-left:0}
+.count-list {
+  grid-template-columns:1fr}
+}
+
+@media(max-width:760px) {
+  .shell {
+  padding-inline:max(16px,env(safe-area-inset-left)) max(16px,env(safe-area-inset-right))}
+header {
+  padding-top:18px;
+  align-items:flex-start}
+.version>span:last-child {
+  display:none}
+h1 {
+  font-size:18px}
+.brand {
+  gap:8px}
+.brand>.anticon {
+  font-size:23px}
+.version .ant-tag {
+  margin:0}
+.workspace {
+  display:block}
+aside {
+  border-right:0;
+  padding:18px 0;
+  border-bottom:1px solid #38383e}
+main {
+  padding:20px 0}
+.results>.ant-empty {
+  margin:45px 0}
+.headline>strong {
+  font-size:44px}
+.target-row {
+  grid-template-columns:minmax(0,1fr) 77px 92px;
+  gap:8px}
+.target-head {
+  grid-template-columns:minmax(0,1fr) 77px 92px;
+  gap:8px}
+.target-row>.ant-input-number {
+  width:77px}
+.reorder .ant-btn {
+  width:44px;
+  min-height:44px}
+.target-row .field .ant-select {
+  width:100%}
+.metrics strong {
+  font-size:22px}
+.count-list {
+  grid-template-columns:1fr}
+footer {
+  padding-bottom:max(22px,env(safe-area-inset-bottom))}
+}
+
+@media(pointer:coarse) {
+  body {
+  font-size:14px}
+.ant-input-number-input {
+  font-size:16px!important;
+  min-height:42px}
+.ant-select-single {
+  height:44px!important}
+.ant-btn {
+  min-height:44px}
+.ant-switch {
+  min-width:48px!important;
+  min-height:28px;
+  margin-block:8px}
+.ant-segmented-item-label {
+  min-height:44px!important;
+  line-height:44px!important}
+.ant-collapse-header {
+  min-height:48px}
+.field {
+  min-height:44px}
+.ant-select-selection-item {
+  font-size:16px}
+.run-actions .ant-btn {
+  min-height:44px}
+.ant-pagination-item,.ant-pagination-prev,.ant-pagination-next {
+  min-width:44px!important;
+  min-height:44px!important;
+  line-height:44px!important}
+}
+

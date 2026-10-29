@@ -1,0 +1,31 @@
+{
+  "name": "genshin-offline-wish",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "npm run typecheck && vite build && node scripts/check-release.mjs",
+    "test:e2e": "playwright test",
+    "bench": "playwright test tests/offline.spec.ts --grep 百万"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "antd": "6.6.7",
+    "@ant-design/icons": "6.3.4",
+    "pure-rand": "8.4.2"
+  },
+  "devDependencies": {
+    "vite": "8.3.5",
+    "@vitejs/plugin-react": "6.1.2",
+    "vite-plugin-singlefile": "2.3.4",
+    "typescript": "7.0.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "vitest": "5.0.5",
+    "@playwright/test": "1.64.1"
+  }
+}
